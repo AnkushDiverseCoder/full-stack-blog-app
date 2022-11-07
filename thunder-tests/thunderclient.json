@@ -1,0 +1,160 @@
+[
+  {
+    "_id": "15be4a5a-ec1c-4d81-a947-f23004adf2cc",
+    "colId": "31956e07-6fe5-45f7-9bb5-25c514b79c08",
+    "containerId": "e0705bdf-e07b-450f-835d-239ca268532e",
+    "name": "register",
+    "url": "http://localhost:8000/api/auth/register",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-11-06T07:08:12.419Z",
+    "modified": "2022-11-07T11:44:47.076Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\":\"lucifer1902\",\n  \"email\":\"thakurtulja1902@gmail.com\",\n  \"password\":\"9606272707\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "5b3da9ec-2786-4ccc-8a08-ddaeb487a7ae",
+    "colId": "31956e07-6fe5-45f7-9bb5-25c514b79c08",
+    "containerId": "e0705bdf-e07b-450f-835d-239ca268532e",
+    "name": "Login",
+    "url": "http://localhost:8000/api/auth/login",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-11-06T11:14:21.086Z",
+    "modified": "2022-11-06T11:15:19.680Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\":\"thakurtulja0@gmail.com\",\n  \"password\":\"9606272707\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "3aedcb23-7b6e-4147-a378-1ba4fc3cf531",
+    "colId": "31956e07-6fe5-45f7-9bb5-25c514b79c08",
+    "containerId": "de6359eb-a188-4d0b-b614-dbda61b5c4b3",
+    "name": "update User",
+    "url": "http://localhost:8000/api/user/63675f548cea884621e36bd7",
+    "method": "PUT",
+    "sortNum": 30000,
+    "created": "2022-11-06T11:21:01.466Z",
+    "modified": "2022-11-06T11:23:09.324Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\":\"masterming\",\n  \"userId\":\"63675f548cea884621e36bd7\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "29118c6e-b5ff-400b-b144-f7f7fdf212b2",
+    "colId": "31956e07-6fe5-45f7-9bb5-25c514b79c08",
+    "containerId": "de6359eb-a188-4d0b-b614-dbda61b5c4b3",
+    "name": "Delete User",
+    "url": "http://localhost:8000/api/user/63675f548cea884621e36bd7",
+    "method": "DELETE",
+    "sortNum": 40000,
+    "created": "2022-11-06T11:24:49.619Z",
+    "modified": "2022-11-06T11:25:24.294Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"userId\":\"63675f548cea884621e36bd7\"\n}\n",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "c42ec1ed-5bcc-4ba1-9c6b-264544dca64a",
+    "colId": "31956e07-6fe5-45f7-9bb5-25c514b79c08",
+    "containerId": "de6359eb-a188-4d0b-b614-dbda61b5c4b3",
+    "name": "get User",
+    "url": "http://localhost:8000/api/user/636799ac1a512fbe231c7b3b",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2022-11-06T11:25:47.991Z",
+    "modified": "2022-11-06T11:26:17.449Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "23f748e6-9f1d-4f07-9dbf-f5713ad90aa0",
+    "colId": "31956e07-6fe5-45f7-9bb5-25c514b79c08",
+    "containerId": "cc809a2e-923f-43fa-8861-149ca95316b9",
+    "name": "Create Post",
+    "url": "http://localhost:8000/api/post",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2022-11-06T11:28:24.749Z",
+    "modified": "2022-11-06T11:31:08.349Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\":\"ankush21dsgadasfasfsafasfSEdgsgsdgsdgsdgsgsdgdsgsdgg\",\n  \"title\":\"test31asfdgdsGsdgsdgzfghgfzdsgzsgssdgdsgdsgsdgdgsdgsdgdgdsgsdg\",\n  \"desc\":\"test desc\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "7049901b-00ae-49a5-b8d1-bf2aeaaec819",
+    "colId": "31956e07-6fe5-45f7-9bb5-25c514b79c08",
+    "containerId": "cc809a2e-923f-43fa-8861-149ca95316b9",
+    "name": "upload image",
+    "url": "http://localhost:8000/api/upload",
+    "method": "POST",
+    "sortNum": 70000,
+    "created": "2022-11-06T14:33:28.078Z",
+    "modified": "2022-11-06T14:36:01.527Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "file",
+          "value": ""
+        }
+      ],
+      "files": [
+        {
+          "name": "file",
+          "value": "..\\..\\..\\..\\Wallpaper\\hello.jpg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "c5d6760a-49c1-4cd5-b026-e0b5007c7160",
+    "colId": "31956e07-6fe5-45f7-9bb5-25c514b79c08",
+    "containerId": "b591bdfe-7aa8-4b82-bb28-780aebafe6e8",
+    "name": "create categories",
+    "url": "http://localhost:8000/api/categories",
+    "method": "POST",
+    "sortNum": 80000,
+    "created": "2022-11-06T15:33:16.012Z",
+    "modified": "2022-11-06T15:33:48.414Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\":\"Music\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
